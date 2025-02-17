@@ -43,7 +43,6 @@ def get_all_companies():
     cursor.close()
     conn.close()
 
-
     return {"companies": companies}
 
 if __name__ == "__main__":
